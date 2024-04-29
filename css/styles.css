@@ -132,16 +132,24 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 /* ==========SECTION HERO STYLES========== */
-.section-hero {
-    background-color: #2e2f42;
+.sec-hero {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/img-people-office-1.jpg); 
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+
     }
 
-.section-hero-title {
+.sec-hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -153,7 +161,7 @@ border-bottom: 1px solid #E7E9FC;
     margin-left: auto;
     }
 
-.section-hero-button {
+.sec-hero-button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -179,8 +187,8 @@ border-bottom: 1px solid #E7E9FC;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);    
     }
 
-.section-hero-button:hover,
-.section-hero-button:focus {
+.sec-hero-button:hover,
+.sec-hero-button:focus {
     background-color: #404bbf;
 }
 
